@@ -63,109 +63,109 @@ The table below catalogs leading commercial and cloud-synced desktop productivit
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the most prominent open-source tiling window managers, hotkey daemons, status bars, and desktop productivity tools. Entries are strictly sorted descending by GitHub star count.
+Explore the most prominent open-source tiling window managers, hotkey daemons, status bars, and desktop productivity tools. Entries are strictly sorted descending by GitHub Stars_Count.
 
-### 1. [microsoft/PowerToys](https://github.com/microsoft/PowerToys) 🪟 [![GitHub stars](https://img.shields.io/github/stars/microsoft/PowerToys?style=social&color=white)](https://github.com/microsoft/PowerToys/stargazers)
+### 1. [microsoft/PowerToys](https://github.com/microsoft/PowerToys) 🪟 [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/PowerToys?style=social&color=white)](https://github.com/microsoft/PowerToys/stargazers)
 - **Description**: Microsoft PowerToys is a comprehensive suite of system utilities for Windows power users. Its standout `FancyZones` module enables custom multi-zone grid layouts and snap behaviors, alongside `PowerToys Run` (quick application/command launcher) and keyboard remapping.
 - **Platforms**: Windows 🪟 | **License**: MIT 📜
 
-### 2. [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) 🐧 [![GitHub stars](https://img.shields.io/github/stars/hyprwm/Hyprland?style=social&color=white)](https://github.com/hyprwm/Hyprland/stargazers)
+### 2. [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) 🐧 [![GitHub_Stars](https://img.shields.io/github/stars/hyprwm/Hyprland?style=social&color=white)](https://github.com/hyprwm/Hyprland/stargazers)
 - **Description**: An independent, dynamic tiling Wayland compositor for Linux that delivers fluid animations, rounded corners, dual-border rendering, and smooth workspace transitions without sacrificing speed or performance.
 - **Platforms**: Linux (Wayland) 🐧 | **License**: BSD-3-Clause 📜
 
-### 3. [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) 🖥️ [![GitHub stars](https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=social&color=white)](https://github.com/MonitorControl/MonitorControl/stargazers)
+### 3. [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) 🖥️ [![GitHub_Stars](https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=social&color=white)](https://github.com/MonitorControl/MonitorControl/stargazers)
 - **Description**: Control external display brightness, contrast, and audio volume on macOS directly via native Apple keyboard keys, smooth slider popups, and DDC/CI hardware protocol integration.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 4. [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) 🎯 [![GitHub stars](https://img.shields.io/github/stars/flameshot-org/flameshot?style=social&color=white)](https://github.com/flameshot-org/flameshot/stargazers)
+### 4. [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) 🎯 [![GitHub_Stars](https://img.shields.io/github/stars/flameshot-org/flameshot?style=social&color=white)](https://github.com/flameshot-org/flameshot/stargazers)
 - **Description**: Powerful, customizable open-source screenshot software featuring in-app freehand drawing, geometric annotations, arrow pointers, pixelate/blur redaction, and instant upload integrations.
 - **Platforms**: Linux 🐧, macOS 🍏, Windows 🪟 | **License**: GPL-3.0 📜
 
-### 5. [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) 📐 [![GitHub stars](https://img.shields.io/github/stars/rxhanson/Rectangle?style=social&color=white)](https://github.com/rxhanson/Rectangle/stargazers)
+### 5. [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) 📐 [![GitHub_Stars](https://img.shields.io/github/stars/rxhanson/Rectangle?style=social&color=white)](https://github.com/rxhanson/Rectangle/stargazers)
 - **Description**: The gold-standard open-source macOS window-snapping utility written in Swift. Snaps windows to halves, thirds, quarters, and maximized states via hotkeys, snap areas, and drag-to-edge gestures.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 6. [jordanbaird/Ice](https://github.com/jordanbaird/Ice) 🧊 [![GitHub stars](https://img.shields.io/github/stars/jordanbaird/Ice?style=social&color=white)](https://github.com/jordanbaird/Ice/stargazers)
+### 6. [jordanbaird/Ice](https://github.com/jordanbaird/Ice) 🧊 [![GitHub_Stars](https://img.shields.io/github/stars/jordanbaird/Ice?style=social&color=white)](https://github.com/jordanbaird/Ice/stargazers)
 - **Description**: Modern and powerful open-source menu bar manager for macOS. The leading community alternative to Bartender, providing hide/show sections, hotkey triggers, hover reveal, and menu bar styling.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 7. [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 🐉 [![GitHub stars](https://img.shields.io/github/stars/koekeishiya/yabai?style=social&color=white)](https://github.com/koekeishiya/yabai/stargazers)
+### 7. [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 🐉 [![GitHub_Stars](https://img.shields.io/github/stars/koekeishiya/yabai?style=social&color=white)](https://github.com/koekeishiya/yabai/stargazers)
 - **Description**: Tiling window manager for macOS based on binary space partitioning (BSP), stacking, and floating layouts. Controllable through a responsive Unix socket CLI and scriptable via hotkey managers.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 8. [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) 🚀 [![GitHub stars](https://img.shields.io/github/stars/nikitabobko/AeroSpace?style=social&color=white)](https://github.com/nikitabobko/AeroSpace/stargazers)
+### 8. [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) 🚀 [![GitHub_Stars](https://img.shields.io/github/stars/nikitabobko/AeroSpace?style=social&color=white)](https://github.com/nikitabobko/AeroSpace/stargazers)
 - **Description**: An i3-inspired, tree-based tiling window manager for macOS written in Swift. Supports virtual workspaces, clean TOML configuration, and runs completely without disabling System Integrity Protection (SIP).
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 9. [p0deje/Maccy](https://github.com/p0deje/Maccy) 📋 [![GitHub stars](https://img.shields.io/github/stars/p0deje/Maccy?style=social&color=white)](https://github.com/p0deje/Maccy/stargazers)
+### 9. [p0deje/Maccy](https://github.com/p0deje/Maccy) 📋 [![GitHub_Stars](https://img.shields.io/github/stars/p0deje/Maccy?style=social&color=white)](https://github.com/p0deje/Maccy/stargazers)
 - **Description**: Lightweight, minimalist open-source clipboard history manager for macOS. Keeps everything keyboard-searchable, instant, and private on local storage without cloud lock-in.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 10. [swaywm/sway](https://github.com/swaywm/sway) 🍃 [![GitHub stars](https://img.shields.io/github/stars/swaywm/sway?style=social&color=white)](https://github.com/swaywm/sway/stargazers)
+### 10. [swaywm/sway](https://github.com/swaywm/sway) 🍃 [![GitHub_Stars](https://img.shields.io/github/stars/swaywm/sway?style=social&color=white)](https://github.com/swaywm/sway/stargazers)
 - **Description**: An i3-compatible Wayland compositor for Linux. Configured via the existing i3 configuration syntax, delivering rock-solid performance, multi-monitor ergonomics, and Wayland display efficiency.
 - **Platforms**: Linux (Wayland) 🐧 | **License**: MIT 📜
 
-### 11. [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) 🔀 [![GitHub stars](https://img.shields.io/github/stars/lwouis/alt-tab-macos?style=social&color=white)](https://github.com/lwouis/alt-tab-macos/stargazers)
+### 11. [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) 🔀 [![GitHub_Stars](https://img.shields.io/github/stars/lwouis/alt-tab-macos?style=social&color=white)](https://github.com/lwouis/alt-tab-macos/stargazers)
 - **Description**: Brings the power of Windows-style live application and window thumbnail switching to macOS. Features rich customization, hotkey mapping, app blacklists, and per-window controls.
 - **Platforms**: macOS 🍏 | **License**: GPL-3.0 📜
 
-### 12. [davatorium/rofi](https://github.com/davatorium/rofi) 🔍 [![GitHub stars](https://img.shields.io/github/stars/davatorium/rofi?style=social&color=white)](https://github.com/davatorium/rofi/stargazers)
+### 12. [davatorium/rofi](https://github.com/davatorium/rofi) 🔍 [![GitHub_Stars](https://img.shields.io/github/stars/davatorium/rofi?style=social&color=white)](https://github.com/davatorium/rofi/stargazers)
 - **Description**: Highly configurable window switcher, application launcher, run dialog, and dmenu replacement for Linux desktops. Extremely fast, lightweight, and themeable via CSS-like syntax.
 - **Platforms**: Linux (X11 / Wayland via forks) 🐧 | **License**: MIT 📜
 
-### 13. [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) 🔨 [![GitHub stars](https://img.shields.io/github/stars/Hammerspoon/hammerspoon?style=social&color=white)](https://github.com/Hammerspoon/hammerspoon/stargazers)
+### 13. [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) 🔨 [![GitHub_Stars](https://img.shields.io/github/stars/Hammerspoon/hammerspoon?style=social&color=white)](https://github.com/Hammerspoon/hammerspoon/stargazers)
 - **Description**: Staggeringly powerful desktop automation environment for macOS bridged to Lua. Directly controls window positions, audio devices, screens, network states, and key events.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 14. [ianyh/Amethyst](https://github.com/ianyh/Amethyst) 🔮 [![GitHub stars](https://img.shields.io/github/stars/ianyh/Amethyst?style=social&color=white)](https://github.com/ianyh/Amethyst/stargazers)
+### 14. [ianyh/Amethyst](https://github.com/ianyh/Amethyst) 🔮 [![GitHub_Stars](https://img.shields.io/github/stars/ianyh/Amethyst?style=social&color=white)](https://github.com/ianyh/Amethyst/stargazers)
 - **Description**: Automatic tiling window manager for macOS modeled after xmonad. Arranges windows automatically into tall, wide, binary space partitioning (BSP), and column layouts.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 15. [dwarvesf/hidden](https://github.com/dwarvesf/hidden) 🙈 [![GitHub stars](https://img.shields.io/github/stars/dwarvesf/hidden?style=social&color=white)](https://github.com/dwarvesf/hidden/stargazers)
+### 15. [dwarvesf/hidden](https://github.com/dwarvesf/hidden) 🙈 [![GitHub_Stars](https://img.shields.io/github/stars/dwarvesf/hidden?style=social&color=white)](https://github.com/dwarvesf/hidden/stargazers)
 - **Description**: Ultra-lightweight macOS utility designed to hide cluttering menu bar icons with a single click or global shortcut toggle, keeping the status area spotless.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 16. [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) 🍉 [![GitHub stars](https://img.shields.io/github/stars/LGUG2Z/komorebi?style=social&color=white)](https://github.com/LGUG2Z/komorebi/stargazers)
+### 16. [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) 🍉 [![GitHub_Stars](https://img.shields.io/github/stars/LGUG2Z/komorebi?style=social&color=white)](https://github.com/LGUG2Z/komorebi/stargazers)
 - **Description**: A tiling window manager for Windows written in Rust. Features automatic BSP and columnar tiling, multi-monitor virtual workspaces, and integrations with `whkd` hotkey daemon.
 - **Platforms**: Windows 🪟 | **License**: MIT 📜
 
-### 17. [espanso/espanso](https://github.com/espanso/espanso) 💬 [![GitHub stars](https://img.shields.io/github/stars/espanso/espanso?style=social&color=white)](https://github.com/espanso/espanso/stargazers)
+### 17. [espanso/espanso](https://github.com/espanso/espanso) 💬 [![GitHub_Stars](https://img.shields.io/github/stars/espanso/espanso?style=social&color=white)](https://github.com/espanso/espanso/stargazers)
 - **Description**: Fast, privacy-first, cross-platform text expander written in Rust. Replaces typed keywords with dynamic snippets, shell script outputs, timestamps, and forms.
 - **Platforms**: macOS 🍏, Linux 🐧, Windows 🪟 | **License**: GPL-3.0 📜
 
-### 18. [glzr-io/glazewm](https://github.com/glzr-io/glazewm) 🪟 [![GitHub stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social&color=white)](https://github.com/glzr-io/glazewm/stargazers)
+### 18. [glzr-io/glazewm](https://github.com/glzr-io/glazewm) 🪟 [![GitHub_Stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social&color=white)](https://github.com/glzr-io/glazewm/stargazers)
 - **Description**: Tiling window manager for Windows and macOS inspired by i3wm and Polybar. Supports multi-monitor tiling, floating exceptions, and pairs seamlessly with Zebar status bars.
 - **Platforms**: Windows 🪟, macOS 🍏 | **License**: GPL-3.0 📜
 
-### 19. [hluk/CopyQ](https://github.com/hluk/CopyQ) 📋 [![GitHub stars](https://img.shields.io/github/stars/hluk/CopyQ?style=social&color=white)](https://github.com/hluk/CopyQ/stargazers)
+### 19. [hluk/CopyQ](https://github.com/hluk/CopyQ) 📋 [![GitHub_Stars](https://img.shields.io/github/stars/hluk/CopyQ?style=social&color=white)](https://github.com/hluk/CopyQ/stargazers)
 - **Description**: Advanced cross-platform clipboard manager with searchable history, rich text/image tabs, custom command macros, and powerful scripting abilities.
 - **Platforms**: Linux 🐧, Windows 🪟, macOS 🍏 | **License**: GPL-3.0 📜
 
-### 20. [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar) 📊 [![GitHub stars](https://img.shields.io/github/stars/FelixKratz/SketchyBar?style=social&color=white)](https://github.com/FelixKratz/SketchyBar/stargazers)
+### 20. [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar) 📊 [![GitHub_Stars](https://img.shields.io/github/stars/FelixKratz/SketchyBar?style=social&color=white)](https://github.com/FelixKratz/SketchyBar/stargazers)
 - **Description**: A highly customizable, ultra-fast macOS status bar replacement written in C. Integrates with shell scripts, yabai, AeroSpace, and system events to display real-time metrics.
 - **Platforms**: macOS 🍏 | **License**: GPL-3.0 📜
 
-### 21. [mrkai77/Loop](https://github.com/mrkai77/Loop) 🔄 [![GitHub stars](https://img.shields.io/github/stars/mrkai77/Loop?style=social&color=white)](https://github.com/mrkai77/Loop/stargazers)
+### 21. [mrkai77/Loop](https://github.com/mrkai77/Loop) 🔄 [![GitHub_Stars](https://img.shields.io/github/stars/mrkai77/Loop?style=social&color=white)](https://github.com/mrkai77/Loop/stargazers)
 - **Description**: Modern macOS window manager featuring a revolutionary radial circular menu triggered by a single modifier key, complete with haptic feedback and real-time screen previews.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 22. [i3/i3](https://github.com/i3/i3) 🧱 [![GitHub stars](https://img.shields.io/github/stars/i3/i3?style=social&color=white)](https://github.com/i3/i3/stargazers)
+### 22. [i3/i3](https://github.com/i3/i3) 🧱 [![GitHub_Stars](https://img.shields.io/github/stars/i3/i3?style=social&color=white)](https://github.com/i3/i3/stargazers)
 - **Description**: The legendary tiling window manager for X11 on Linux and BSD. Renowned for rock-solid stability, plain-text configuration, tree data structures, and keyboard-centric focus.
 - **Platforms**: Linux / BSD (X11) 🐧 | **License**: BSD-3-Clause 📜
 
-### 23. [baskerville/bspwm](https://github.com/baskerville/bspwm) 🌲 [![GitHub stars](https://img.shields.io/github/stars/baskerville/bspwm?style=social&color=white)](https://github.com/baskerville/bspwm/stargazers)
+### 23. [baskerville/bspwm](https://github.com/baskerville/bspwm) 🌲 [![GitHub_Stars](https://img.shields.io/github/stars/baskerville/bspwm?style=social&color=white)](https://github.com/baskerville/bspwm/stargazers)
 - **Description**: A minimalist tiling window manager for X11 that represents windows as the leaves of a binary tree. Controlled purely via socket messages and external hotkey tools like `sxhkd`.
 - **Platforms**: Linux (X11) 🐧 | **License**: BSD-2-Clause 📜
 
-### 24. [koekeishiya/skhd](https://github.com/koekeishiya/skhd) ⌨️ [![GitHub stars](https://img.shields.io/github/stars/koekeishiya/skhd?style=social&color=white)](https://github.com/koekeishiya/skhd/stargazers)
+### 24. [koekeishiya/skhd](https://github.com/koekeishiya/skhd) ⌨️ [![GitHub_Stars](https://img.shields.io/github/stars/koekeishiya/skhd?style=social&color=white)](https://github.com/koekeishiya/skhd/stargazers)
 - **Description**: Ultra-low-latency, simple hotkey daemon for macOS capable of reacting to keypress events without modal lag. The standard hotkey companion for yabai and CLI tools.
 - **Platforms**: macOS 🍏 | **License**: MIT 📜
 
-### 25. [Saffsanity/sill](https://github.com/Saffsanity/sill) 📱 [![GitHub stars](https://img.shields.io/github/stars/Saffsanity/sill?style=social&color=white)](https://github.com/Saffsanity/sill/stargazers)
+### 25. [Saffsanity/sill](https://github.com/Saffsanity/sill) 📱 [![GitHub_Stars](https://img.shields.io/github/stars/Saffsanity/sill?style=social&color=white)](https://github.com/Saffsanity/sill/stargazers)
 - **Description**: Free and open-source utility projecting any window from your Mac live onto an iPad or iPhone with interactive touch, Apple Pencil, trackpad, and keyboard inputs without external cloud servers.
 - **Platforms**: macOS & iOS 🍏📱 | **License**: MIT 📜
 
-### 26. [glzr-io/zebar](https://github.com/glzr-io/zebar) 📈 [![GitHub stars](https://img.shields.io/github/stars/glzr-io/zebar?style=social&color=white)](https://github.com/glzr-io/zebar/stargazers)
+### 26. [glzr-io/zebar](https://github.com/glzr-io/zebar) 📈 [![GitHub_Stars](https://img.shields.io/github/stars/glzr-io/zebar?style=social&color=white)](https://github.com/glzr-io/zebar/stargazers)
 - **Description**: Cross-platform taskbar, desktop widget, and status popup engine rendered with HTML, CSS, and JavaScript. Pairs natively with GlazeWM and Komorebi to display CPU, battery, and workspace tags.
 - **Platforms**: Windows 🪟, macOS 🍏, Linux 🐧 | **License**: GPL-3.0 📜
 
@@ -223,7 +223,7 @@ Contributions are welcome! To suggest a new tool or update existing information:
 
 1. **Fork** this repository.
 2. Ensure the tool satisfies our curation guidelines (focus on minimalism, window ergonomics, or keyboard efficiency).
-3. Update `README.md` following the tabular format for commercial products or the star badge format for open-source repositories.
+3. Update `README.md` following the tabular format for commercial products or the Stars_Badge format for open-source repositories.
 4. Verify accuracy of pricing, free tier limits, platform support, and repository URLs.
 5. Submit a descriptive **Pull Request**.
 
