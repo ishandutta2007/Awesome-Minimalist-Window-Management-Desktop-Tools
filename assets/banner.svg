@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0a0c10; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e14" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#07090e" />
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="windowBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="pulseGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <filter id="shadowFilter" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Keyframe Animations */
+    @keyframes floatWindow1 {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-10px) scale(1.01); }
+    }
+    @keyframes floatWindow2 {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(8px) scale(0.99); }
+    }
+    @keyframes floatWindow3 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes pulseCard {
+      0%, 100% { opacity: 0.25; stroke-dashoffset: 0; }
+      50% { opacity: 0.5; stroke-dashoffset: 20; }
+    }
+    @keyframes sweepGlow {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.4; r: 3px; }
+      50% { opacity: 1; r: 4.5px; }
+    }
+
+    .win1 { animation: floatWindow1 7s ease-in-out infinite; transform-origin: center; }
+    .win2 { animation: floatWindow2 9s ease-in-out infinite; transform-origin: center; }
+    .win3 { animation: floatWindow3 8s ease-in-out infinite; transform-origin: center; }
+    .grid-pulse { animation: pulseCard 5s ease-in-out infinite; }
+    .dot-pulse1 { animation: pulseDot 3s ease-in-out infinite; }
+    .dot-pulse2 { animation: pulseDot 4s ease-in-out infinite 1s; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Subtle Blueprint Tech Grid in Background -->
+  <g opacity="0.08" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="40" x2="1200" y2="40" stroke-dasharray="4,6" />
+    <line x1="0" y1="120" x2="1200" y2="120" stroke-dasharray="4,6" />
+    <line x1="0" y1="200" x2="1200" y2="200" stroke-dasharray="4,6" />
+    <line x1="0" y1="280" x2="1200" y2="280" stroke-dasharray="4,6" />
+    <line x1="160" y1="0" x2="160" y2="360" stroke-dasharray="4,6" />
+    <line x1="360" y1="0" x2="360" y2="360" stroke-dasharray="4,6" />
+    <line x1="600" y1="0" x2="600" y2="360" stroke-dasharray="4,6" />
+    <line x1="840" y1="0" x2="840" y2="360" stroke-dasharray="4,6" />
+    <line x1="1040" y1="0" x2="1040" y2="360" stroke-dasharray="4,6" />
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="80" r="140" fill="#38bdf8" opacity="0.08" filter="url(#neonGlow)" />
+  <circle cx="1020" cy="220" r="160" fill="#a855f7" opacity="0.08" filter="url(#neonGlow)" />
+
+  <!-- DYNAMIC BACKGROUND / SIDE ELEMENTS (Floating Window Frames) -->
+  <!-- Left Side: Tiling Terminal Mockup Window (Deep Background, Behind Content) -->
+  <g class="win1" filter="url(#shadowFilter)">
+    <rect x="50" y="55" width="230" height="250" rx="12" fill="#131b2e" stroke="url(#windowBorderGrad)" stroke-width="1.2" opacity="0.55" />
+    <!-- Window Bar -->
+    <rect x="50" y="55" width="230" height="28" rx="12" fill="#1e293b" opacity="0.6" />
+    <circle cx="70" cy="69" r="4" fill="#ef4444" opacity="0.8" />
+    <circle cx="84" cy="69" r="4" fill="#f59e0b" opacity="0.8" />
+    <circle cx="98" cy="69" r="4" fill="#10b981" opacity="0.8" />
+    <text x="120" y="73" fill="#64748b" font-size="10" font-family="monospace">tmux : yabai / bsp</text>
+    <!-- Code / Lines Mock -->
+    <rect x="70" y="98" width="90" height="8" rx="4" fill="#38bdf8" opacity="0.4" />
+    <rect x="70" y="118" width="140" height="6" rx="3" fill="#475569" opacity="0.5" />
+    <rect x="70" y="134" width="110" height="6" rx="3" fill="#475569" opacity="0.4" />
+    <rect x="70" y="150" width="160" height="6" rx="3" fill="#6366f1" opacity="0.3" />
+    <!-- Mini Split Window -->
+    <rect x="68" y="174" width="194" height="110" rx="8" fill="#0b0f19" stroke="#334155" stroke-width="1" opacity="0.6" />
+    <text x="82" y="196" fill="#10b981" font-size="10" font-family="monospace">❯ aerospace tree</text>
+    <rect x="82" y="210" width="70" height="5" rx="2" fill="#475569" opacity="0.5" />
+    <rect x="82" y="222" width="120" height="5" rx="2" fill="#475569" opacity="0.3" />
+    <rect x="82" y="234" width="95" height="5" rx="2" fill="#38bdf8" opacity="0.3" />
+  </g>
+
+  <!-- Right Side: Clean Productivity / Launcher Grid (Dynamic Floating Tile) -->
+  <g class="win2" filter="url(#shadowFilter)">
+    <rect x="910" y="55" width="240" height="250" rx="12" fill="#131b2e" stroke="url(#windowBorderGrad)" stroke-width="1.2" opacity="0.55" />
+    <rect x="910" y="55" width="240" height="28" rx="12" fill="#1e293b" opacity="0.6" />
+    <circle cx="930" cy="69" r="4" fill="#ef4444" opacity="0.8" />
+    <circle cx="944" cy="69" r="4" fill="#f59e0b" opacity="0.8" />
+    <circle cx="958" cy="69" r="4" fill="#10b981" opacity="0.8" />
+    <text x="978" y="73" fill="#64748b" font-size="10" font-family="monospace">Raycast / Quick Snap</text>
+    <!-- Snap Layout Grids Mock -->
+    <rect x="930" y="98" width="95" height="60" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.7" />
+    <rect x="1035" y="98" width="95" height="60" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.7" />
+    <rect x="930" y="168" width="200" height="42" rx="6" fill="#0b0f19" stroke="#818cf8" stroke-width="0.8" opacity="0.6" />
+    <text x="942" y="193" fill="#c084fc" font-size="10" font-family="monospace">⌥ + ⇧ + ↵ Snap Grid</text>
+    <!-- Mini Pills in Right Window -->
+    <rect x="930" y="224" width="60" height="20" rx="10" fill="#38bdf8" opacity="0.2" />
+    <text x="942" y="238" fill="#38bdf8" font-size="9" font-weight="600">i3wm</text>
+    <rect x="1000" y="224" width="70" height="20" rx="10" fill="#818cf8" opacity="0.2" />
+    <text x="1010" y="238" fill="#818cf8" font-size="9" font-weight="600">Hyprland</text>
+    <rect x="1080" y="224" width="50" height="20" rx="10" fill="#10b981" opacity="0.2" />
+    <text x="1088" y="238" fill="#10b981" font-size="9" font-weight="600">Loop</text>
+  </g>
+
+  <!-- CENTER FOREGROUND CONTENT (Protected, Crisp, Never Covered) -->
+  <!-- Top Minimalist Badge -->
+  <g transform="translate(470, 48)">
+    <rect x="0" y="0" width="260" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+    <circle cx="16" cy="14" r="4" fill="#38bdf8" class="dot-pulse1" />
+    <text x="28" y="18" fill="#93c5fd" font-size="11" font-weight="700" letter-spacing="1">CURATED ECOSYSTEM DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="128" text-anchor="middle" font-size="34" font-weight="900" fill="url(#primaryTextGrad)" letter-spacing="-0.5">
+    Awesome Minimalist Window Management
+  </text>
+  
+  <text x="600" y="168" text-anchor="middle" font-size="28" font-weight="800" fill="#f8fafc" letter-spacing="-0.3">
+    &amp; Desktop Tools
+  </text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="600" y="208" text-anchor="middle" font-size="14.5" font-weight="500" fill="#94a3b8" letter-spacing="0.2">
+    Tiling Window Managers • Keyboard-Driven Snapping • Menu Bar Organizers • Clean Launchers
+  </text>
+
+  <!-- Bottom OS / Platform Interactive Pills in Center Foreground -->
+  <g transform="translate(350, 245)">
+    <!-- macOS Pill -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <circle cx="18" cy="17" r="4" fill="#38bdf8" />
+      <text x="32" y="22" fill="#e2e8f0" font-size="12" font-weight="600">macOS</text>
+      <text x="80" y="22" fill="#64748b" font-size="10">AeroSpace / Ice</text>
+    </g>
+
+    <!-- Linux Pill -->
+    <g transform="translate(170, 0)">
+      <rect x="0" y="0" width="150" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <circle cx="18" cy="17" r="4" fill="#a855f7" />
+      <text x="32" y="22" fill="#e2e8f0" font-size="12" font-weight="600">Linux</text>
+      <text x="74" y="22" fill="#64748b" font-size="10">Hyprland / i3</text>
+    </g>
+
+    <!-- Windows Pill -->
+    <g transform="translate(345, 0)">
+      <rect x="0" y="0" width="155" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <circle cx="18" cy="17" r="4" fill="#3b82f6" />
+      <text x="32" y="22" fill="#e2e8f0" font-size="12" font-weight="600">Windows</text>
+      <text x="90" y="22" fill="#64748b" font-size="10">PowerToys / Glaze</text>
+    </g>
+  </g>
+
+  <!-- Bottom Aesthetic Status Line -->
+  <line x1="380" y1="315" x2="820" y2="315" stroke="url(#pulseGlow)" stroke-width="2" class="grid-pulse" />
+  <text x="600" y="335" text-anchor="middle" font-size="11" font-weight="500" fill="#475569" letter-spacing="1">
+    COMMERCIAL SAAS PRICING • OPEN-SOURCE GITHUB RATINGS • DESKTOP ERGONOMICS
+  </text>
+</svg>
